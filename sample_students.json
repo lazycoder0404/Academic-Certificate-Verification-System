@@ -1,0 +1,69 @@
+{
+  "students": [
+    {
+      "student_name": "Alice Johnson",
+      "student_id": "MIT2024001",
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "Massachusetts Institute of Technology",
+      "issue_date": "2024-06-15",
+      "graduation_date": "2024-06-15",
+      "grade": "Magna Cum Laude",
+      "gpa": "3.8",
+      "major": "Computer Science",
+      "minor": "Mathematics",
+      "email": "alice.johnson@mit.edu"
+    },
+    {
+      "student_name": "Bob Smith",
+      "student_id": "STAN2024002",
+      "degree": "Master of Business Administration",
+      "institution": "Stanford University",
+      "issue_date": "2024-06-20",
+      "graduation_date": "2024-06-20",
+      "grade": "Distinction",
+      "gpa": "3.9",
+      "major": "Business Administration",
+      "specialization": "Technology Management",
+      "email": "bob.smith@stanford.edu"
+    },
+    {
+      "student_name": "Carol Davis",
+      "student_id": "HVD2024003",
+      "degree": "Doctor of Medicine",
+      "institution": "Harvard University",
+      "issue_date": "2024-05-30",
+      "graduation_date": "2024-05-30",
+      "grade": "Summa Cum Laude",
+      "gpa": "3.95",
+      "major": "Medicine",
+      "specialization": "Cardiology",
+      "email": "carol.davis@harvard.edu"
+    },
+    {
+      "student_name": "David Wilson",
+      "student_id": "UCB2024004",
+      "degree": "Bachelor of Science in Electrical Engineering",
+      "institution": "University of California, Berkeley",
+      "issue_date": "2024-05-15",
+      "graduation_date": "2024-05-15",
+      "grade": "Cum Laude",
+      "gpa": "3.7",
+      "major": "Electrical Engineering",
+      "minor": "Computer Science",
+      "email": "david.wilson@berkeley.edu"
+    },
+    {
+      "student_name": "Emma Brown",
+      "student_id": "CIT2024005",
+      "degree": "Doctor of Philosophy in Physics",
+      "institution": "California Institute of Technology",
+      "issue_date": "2024-06-01",
+      "graduation_date": "2024-06-01",
+      "grade": "Distinction",
+      "gpa": "3.85",
+      "major": "Physics",
+      "research_area": "Quantum Mechanics",
+      "email": "emma.brown@caltech.edu"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "project": {
+    "name": "Academic Certificate Verification System",
+    "version": "1.0.0",
+    "description": "Decentralized blockchain-based academic certificate management",
+    "author": "AI Assistant",
+    "license": "Educational Use",
+    "created": "2025-10-07T14:33:00.925139"
+  },
+  "files": {
+    "core": [
+      "blockchain.py",
+      "wallet.py",
+      "certificate_issuer.py",
+      "app.py"
+    ],
+    "configuration": [
+      "requirements.txt",
+      "config.json",
+      "Dockerfile",
+      "docker-compose.yml",
+      ".gitignore"
+    ],
+    "documentation": [
+      "README.md"
+    ],
+    "scripts": [
+      "demo.py",
+      "test.py",
+      "setup.py"
+    ],
+    "sample_data": [
+      "sample_institutions.json",
+      "sample_students.json"
+    ],
+    "generated": [
+      "academic_blockchain.db",
+      "wallets/",
+      "blockchain_export_*.json"
+    ]
+  },
+  "features": {
+    "blockchain": [
+      "Proof-of-Authority consensus",
+      "SQLite persistence",
+      "Chain validation",
+      "Block mining"
+    ],
+    "certificates": [
+      "Digital issuance",
+      "Hash-based verification",
+      "Certificate revocation",
+      "Privacy protection"
+    ],
+    "security": [
+      "RSA digital signatures",
+      "SHA-256 hashing",
+      "Key management",
+      "Authority validation"
+    ],
+    "interface": [
+      "Flask web application",
+      "REST API",
+      "QR code generation",
+      "Real-time statistics"
+    ]
+  },
+  "usage": {
+    "quick_start": [
+      "pip install -r requirements.txt",
+      "python setup.py",
+      "python app.py"
+    ],
+    "demo": "python demo.py",
+    "tests": "python test.py",
+    "docker": "docker-compose up -d"
+  }
+}

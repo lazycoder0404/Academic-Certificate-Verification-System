@@ -1,0 +1,44 @@
+{
+  "institutions": [
+    {
+      "authority_id": "mit",
+      "institution_name": "Massachusetts Institute of Technology",
+      "location": "Cambridge, MA, USA",
+      "established": "1861",
+      "website": "https://web.mit.edu/",
+      "accreditation": "NEASC"
+    },
+    {
+      "authority_id": "stanford",
+      "institution_name": "Stanford University",
+      "location": "Stanford, CA, USA",
+      "established": "1885",
+      "website": "https://www.stanford.edu/",
+      "accreditation": "WSCUC"
+    },
+    {
+      "authority_id": "harvard",
+      "institution_name": "Harvard University",
+      "location": "Cambridge, MA, USA",
+      "established": "1636",
+      "website": "https://www.harvard.edu/",
+      "accreditation": "NEASC"
+    },
+    {
+      "authority_id": "berkeley",
+      "institution_name": "University of California, Berkeley",
+      "location": "Berkeley, CA, USA",
+      "established": "1868",
+      "website": "https://www.berkeley.edu/",
+      "accreditation": "WSCUC"
+    },
+    {
+      "authority_id": "caltech",
+      "institution_name": "California Institute of Technology",
+      "location": "Pasadena, CA, USA",
+      "established": "1891",
+      "website": "https://www.caltech.edu/",
+      "accreditation": "WSCUC"
+    }
+  ]
+}

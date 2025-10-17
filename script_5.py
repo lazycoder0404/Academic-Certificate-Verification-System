@@ -1,4 +1,16 @@
-# 🎓 Decentralized Academic Certificate Verification System
+# Create requirements.txt file
+requirements = """Flask==2.3.3
+Flask-CORS==4.0.0
+cryptography==41.0.7
+qrcode[pil]==7.4.2
+Pillow==10.0.1
+"""
+
+with open('requirements.txt', 'w') as f:
+    f.write(requirements)
+
+# Create README.md documentation
+readme_content = """# 🎓 Decentralized Academic Certificate Verification System
 
 A comprehensive Python-based blockchain project for secure, tamper-proof academic certificate management using Proof-of-Authority consensus.
 
@@ -82,8 +94,8 @@ academic-blockchain/
 
 ### 1. Register an Institution
 ```bash
-curl -X POST http://localhost:5000/api/institutions/register \
-  -H "Content-Type: application/json" \
+curl -X POST http://localhost:5000/api/institutions/register \\
+  -H "Content-Type: application/json" \\
   -d '{
     "institution_name": "Massachusetts Institute of Technology",
     "authority_id": "mit"
@@ -92,8 +104,8 @@ curl -X POST http://localhost:5000/api/institutions/register \
 
 ### 2. Issue a Certificate
 ```bash
-curl -X POST http://localhost:5000/api/certificates/issue \
-  -H "Content-Type: application/json" \
+curl -X POST http://localhost:5000/api/certificates/issue \\
+  -H "Content-Type: application/json" \\
   -d '{
     "authority_id": "mit",
     "student_name": "Alice Johnson",
@@ -300,3 +312,16 @@ For questions, issues, or contributions:
 **Built with ❤️ using Python, Flask, and Blockchain Technology**
 
 *Securing Academic Integrity through Decentralized Verification*
+"""
+
+with open('README.md', 'w') as f:
+    f.write(readme_content)
+
+print("✅ Created requirements.txt and README.md successfully!")
+print("📁 Complete project structure:")
+print("- blockchain.py (Core blockchain with PoA consensus)")
+print("- wallet.py (RSA digital signatures and key management)")
+print("- certificate_issuer.py (Certificate issuance and management)")
+print("- app.py (Flask web application with frontend)")
+print("- requirements.txt (Python dependencies)")
+print("- README.md (Complete documentation)")

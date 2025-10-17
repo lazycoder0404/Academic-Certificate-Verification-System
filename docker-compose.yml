@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  academic-blockchain:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./data:/app/data
+      - ./wallets:/app/wallets
+    environment:
+      - FLASK_ENV=production
+      - DATABASE_PATH=/app/data/academic_blockchain.db
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/api/blockchain/info"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  blockchain_data:

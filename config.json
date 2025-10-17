@@ -1,0 +1,37 @@
+{
+  "system": {
+    "name": "Academic Certificate Verification System",
+    "version": "1.0.0",
+    "description": "Decentralized blockchain-based certificate verification",
+    "consensus": "Proof-of-Authority"
+  },
+  "blockchain": {
+    "genesis_message": "Academic Certificate Verification System Genesis Block",
+    "difficulty": 4,
+    "block_time": "on-demand",
+    "max_certificates_per_block": 100
+  },
+  "cryptography": {
+    "signature_algorithm": "RSA-PSS",
+    "hash_algorithm": "SHA-256",
+    "key_size": 2048,
+    "padding": "PSS with MGF1"
+  },
+  "database": {
+    "type": "SQLite",
+    "filename": "academic_blockchain.db",
+    "backup_interval": "daily"
+  },
+  "api": {
+    "host": "0.0.0.0",
+    "port": 5000,
+    "cors_enabled": true,
+    "rate_limiting": false
+  },
+  "security": {
+    "require_https": false,
+    "session_timeout": 3600,
+    "password_encryption": true,
+    "audit_logging": true
+  }
+}
